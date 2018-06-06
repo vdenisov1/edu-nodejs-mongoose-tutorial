@@ -5,8 +5,7 @@ const uriString = process.env.MONGOLAB_URI ||
 			 	  'mongodb://localhost/HelloMongoose';
 const options = {
 	user: process.env.MONGODB_USER || '',
-	pass: process.env.MONGODB_AUTH || '',
-	authSource: 'admin'
+	pass: process.env.MONGODB_AUTH || ''
 };
 
 const port = process.env.PORT || 5000;
