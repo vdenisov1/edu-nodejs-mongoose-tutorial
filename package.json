@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-mongoose-tutorial",
+  "version": "0.0.1",
+  "description": "MongodDB + Node.js Tutorial from Heroku",
+  "main": "app.js",
+  "dependencies": {
+    "http": "^0.0.0",
+    "mongoose": "^5.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdenisov1/nodejs-mongoose-tutorial.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "MongoDB",
+    "Javascript"
+  ],
+  "author": "Vlad Denisov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vdenisov1/nodejs-mongoose-tutorial/issues"
+  },
+  "homepage": "https://github.com/vdenisov1/nodejs-mongoose-tutorial#readme"
+}
